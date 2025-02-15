@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Tech</title>
+    <link rel="stylesheet" href="Tech_css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="Gallery/pic5.jpg" alt="Ally Security Tech Logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Home Section with Video Background -->
+    <section id="Home">
+        <div class="video-background">
+            <video autoplay muted loop>
+                <source src="Gallery/home.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="home-content">
+            <h2>Welcome to Security Tech</h2>
+            <p>Protecting your home and business with the latest technology.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-text">
+            <h2>About Us</h2>
+            <p>We specialize in providing top-notch security technology solutions to keep your home or business safe.<br>
+                With a commitment to quality workmanship, we ensure reliable and durable security systems tailored to your needs.</p>
+            <h3>Vision</h3>
+            <p>To be the leading provider of innovative and dependable security technology solutions, empowering customers with peace of mind.</p>
+            <h3>Mission</h3>
+            <p>Delivering top-quality security solutions with exceptional workmanship, ensuring safety and customer satisfaction.</p>
+        </div>
+        <div class="about-image">
+            <img src="Gallery/ally.jpeg" alt="About Security Tech">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+      <!-- Services Section -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <img src="Gallery/pic1.jpg" alt="Electrical Fence">
+                    <p>Electrical Fences</p>
+                </div>
+                <div class="service-item">
+                    <img src="Gallery/Gate.jpeg" alt="Gate Motors">
+                    <p>Gate Motors</p>
+                </div>
+                <div class="service-item">
+                    <img src="Gallery/CCTV.jpeg" alt="CCTV Cameras">
+                    <p>CCTV Cameras</p>
+                </div>
+                <div class="service-item">
+                    <img src="Gallery/alam.jpg" alt="Alarm Systems">
+                    <p>Alarm Systems</p>
+                </div>
+            </div>
+            <pre>
+                
+            </pre>
+            <div class="service-grid">
+                <div class="service-item">
+                    <img src="Gallery/Intercom.jpeg" alt="Electrical Fence">
+                    <p>Intercom Systems</p>
+                </div>
+                <div class="service-item">
+                    <img src="Gallery/Garage.jpeg" alt="Gate Motors">
+                    <p>Garage Door Motors</p>
+                </div>
+                <div class="service-item">
+                    <img src="Gallery/repair.jpeg" alt="Reparing All">
+                    <p>Reparing All</p>
+                </div>
+                
+            </div>
+        </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:info@allysecuritytech.com">info@allysecuritytech.com</a></p>
+            <form id="contact-form" method="post">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Request</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>        <div class="footer-content">
+            <div>
+                <h2>Address</h2>
+                <p> 537 Murray Rd, Wadeville,</p>
+                <p>Germiston</p>
+            </div>
+            <div>
+                <h2>Contact</h2>
+                <p>Mobile: 079 410 9389/ 079 590 2136</p>
+                <p>Email: <a href="mailto:info@allysecuritytech.com">info@allysecuritytech.com</a></p>
+            </div>
+            <div>
+                <h2>Social Media</h2>
+                <p><a href="https://facebook.com" target="_blank">Facebook</a></p>
+                <p><a href="https://twitter.com" target="_blank">Twitter</a></p>
+                <p><a href="https://instagram.com" target="_blank">Instagram</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Security Tech 2025 | Providing top-notch security technology solutions.</p>
+        </div>
+        
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
